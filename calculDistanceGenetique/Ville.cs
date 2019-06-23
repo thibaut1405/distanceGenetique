@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace calculDistanceGenetique
 {
-    class Item
+    public class Ville
     {
         public int id;
         public string city;
-        public double lng;
         public double lan;
+        public double lng;
     }
 }

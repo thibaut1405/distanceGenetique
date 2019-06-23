@@ -1,0 +1,13 @@
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\x64\Debug\calculDistanceGenetique.exe.config
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\x64\Debug\calculDistanceGenetique.exe
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\x64\Debug\calculDistanceGenetique.pdb
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\x64\Debug\GeoCoordinate.NetStandard1.dll
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\x64\Debug\Json.dll
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\x64\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\x64\Debug\Json.pdb
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\obj\x64\Debug\calculDistanceGenetique.csproj.CoreCompileInputs.cache
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\obj\x64\Debug\calculDistanceGenetique.csproj.CopyComplete
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\obj\x64\Debug\calculDistanceGenetique.exe
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\obj\x64\Debug\calculDistanceGenetique.pdb

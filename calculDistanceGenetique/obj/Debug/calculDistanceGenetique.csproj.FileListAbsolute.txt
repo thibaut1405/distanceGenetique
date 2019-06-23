@@ -10,3 +10,17 @@ D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\calculDistance
 D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\calculDistanceGenetique\calculDistanceGenetique\bin\Debug\Newtonsoft.Json.xml
 D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\calculDistanceGenetique\calculDistanceGenetique\bin\Debug\GeoCoordinate.NetStandard1.dll
 D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\calculDistanceGenetique\calculDistanceGenetique\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\Debug\calculDistanceGenetique.exe.config
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\Debug\calculDistanceGenetique.exe
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\Debug\calculDistanceGenetique.pdb
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\Debug\GeoCoordinate.NetStandard1.dll
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\Debug\Json.dll
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\Debug\Json.pdb
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\obj\Debug\calculDistanceGenetique.csprojAssemblyReference.cache
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\obj\Debug\calculDistanceGenetique.csproj.CoreCompileInputs.cache
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\obj\Debug\calculDistanceGenetique.csproj.CopyComplete
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\obj\Debug\calculDistanceGenetique.exe
+C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\obj\Debug\calculDistanceGenetique.pdb
