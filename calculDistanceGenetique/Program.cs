@@ -17,15 +17,17 @@ namespace calculDistanceGenetique
 
         private static Trajet trajetGagnant = new Trajet();
 
+        public static int nombreDeGenerationAleatoire = 200;
+
         static void Main(string[] args)
         {
             listeDesVilles = JsonReader.GetVilles(); //Lire le Json et récupérer les données dans "listeDesVilles"
 
-            listeTrajet = GenererTrajets.GenererListeTrajet(200); //Génère la liste des trajets aléatoirement
+            listeTrajet = GenererTrajets.GenererListeTrajet(nombreDeGenerationAleatoire); //Génère la liste des trajets aléatoirement
 
             listeTrajet = CalculateurDeDistance.Calcul(listeTrajet, listeDesVilles); //Calcule la distance de chaque trajet
 
-            for (int i = 0; i < 50; i++)
+            for (int i = 0; i < 200; i++)
             {
                 listeTrajet = listeTrajet.OrderBy(o => o.distance).ToList(); //Trie les trajets en fonction de leur distance
 
@@ -33,11 +35,11 @@ namespace calculDistanceGenetique
 
                 Console.WriteLine(listeTrajet[0].distance); // Ecrit dans la console le trajet trouvé le plus court trouvé
 
-                listeTrajet.RemoveRange(199, listeTrajet.Count - 200);
+                listeTrajet.RemoveRange(nombreDeGenerationAleatoire-1, listeTrajet.Count - nombreDeGenerationAleatoire);
 
                 nouvelleListeTrajet = MelangeurDeDonnee.Melanger(listeTrajet); //Mélange les données entre elles pour en avoir de nouvelles
 
-                nouvelleListeTrajet.AddRange(GenererTrajets.GenererListeTrajet(100)); //Génère la liste des trajets aléatoirement et l'ajoute à la liste mélangée
+                nouvelleListeTrajet.AddRange(GenererTrajets.GenererListeTrajet(nombreDeGenerationAleatoire/2)); //Génère la liste des trajets aléatoirement et l'ajoute à la liste mélangée
 
                 nouvelleListeTrajet = CalculateurDeDistance.Calcul(nouvelleListeTrajet, listeDesVilles);
 

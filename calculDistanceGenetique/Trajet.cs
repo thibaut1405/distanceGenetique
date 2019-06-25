@@ -26,10 +26,10 @@ namespace calculDistanceGenetique
             string resultat = "";
             foreach (int idVille in listeDesVilles)
             {
-                resultat += Program.listeDesVilles[idVille - 1].city + ",";
+                resultat += Program.listeDesVilles[idVille - 1].city + ", ";
             }
 
-            Console.WriteLine(resultat +" avec une distance de : "+ distance.ToString());
+            Console.WriteLine(resultat +"avec une distance de : "+ (distance/1000).ToString() + " Km");
         }
     }
 }

@@ -15,7 +15,7 @@ namespace calculDistanceGenetique
 
         private static Trajet GenererUnTrajet()
         {
-            System.Threading.Thread.Sleep(15); //WTFFFFFFFFFFFFF
+            System.Threading.Thread.Sleep(2); //WTFFFFFFFFFFFFF
             Trajet trajet = new Trajet();
 
             Random rand = new Random();

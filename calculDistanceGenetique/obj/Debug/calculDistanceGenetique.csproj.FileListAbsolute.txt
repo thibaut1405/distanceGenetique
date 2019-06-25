@@ -24,3 +24,15 @@ C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\obj
 C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\obj\Debug\calculDistanceGenetique.csproj.CopyComplete
 C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\obj\Debug\calculDistanceGenetique.exe
 C:\Users\Youzeur\Documents\Projets\distanceGenetique\calculDistanceGenetique\obj\Debug\calculDistanceGenetique.pdb
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\distanceGenetique\calculDistanceGenetique\bin\Debug\calculDistanceGenetique.exe.config
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\distanceGenetique\calculDistanceGenetique\obj\Debug\calculDistanceGenetique.exe
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\distanceGenetique\calculDistanceGenetique\obj\Debug\calculDistanceGenetique.pdb
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\distanceGenetique\calculDistanceGenetique\bin\Debug\calculDistanceGenetique.exe
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\distanceGenetique\calculDistanceGenetique\bin\Debug\calculDistanceGenetique.pdb
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\distanceGenetique\calculDistanceGenetique\bin\Debug\GeoCoordinate.NetStandard1.dll
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\distanceGenetique\calculDistanceGenetique\bin\Debug\Json.dll
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\distanceGenetique\calculDistanceGenetique\bin\Debug\Newtonsoft.Json.dll
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\distanceGenetique\calculDistanceGenetique\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\distanceGenetique\calculDistanceGenetique\bin\Debug\Json.pdb
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\distanceGenetique\calculDistanceGenetique\bin\Debug\Newtonsoft.Json.xml
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\distanceGenetique\calculDistanceGenetique\obj\Debug\calculDistanceGenetique.csprojResolveAssemblyReference.cache
