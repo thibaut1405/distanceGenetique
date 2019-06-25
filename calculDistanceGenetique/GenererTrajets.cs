@@ -13,12 +13,9 @@ namespace calculDistanceGenetique
         static List<int> ListeDe1a15() { return new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 }; } // A ameliorer : Ne pas le générer a la main mais avec la liste des villes.
 
 
-        private static Trajet GenererUnTrajet()
+        private static Trajet GenererUnTrajet(Random rand)
         {
-            System.Threading.Thread.Sleep(2); //WTFFFFFFFFFFFFF
             Trajet trajet = new Trajet();
-
-            Random rand = new Random();
 
             List<int> randList = ListeDe1a15();
 
@@ -39,18 +36,25 @@ namespace calculDistanceGenetique
             return trajet;
         }
 
-                     
         public static List<Trajet> GenererListeTrajet(int nombreDeTrajetAGenerer)
         {
             listeTrajet = new List<Trajet>();
             for (int i = 0; i < nombreDeTrajetAGenerer; i++)
             {
-                Trajet trajet = GenererUnTrajet();
+                Random rand = new Random((int)DateTime.Now.Ticks);
+                Trajet trajet = GenererUnTrajet(rand);
 
-                if (!listeTrajet.Contains(trajet))
+                bool isNotInList = true;
+                foreach (var x in listeTrajet)
                 {
-                    listeTrajet.Add(trajet);
+                    if (trajet.ToString() == x.ToString())
+                    {
+                        isNotInList = false;
+                    }
                 }
+                if (isNotInList) listeTrajet.Add(trajet);
+                else i--;
+                //listeTrajet.Add(trajet);
             }
             return listeTrajet;
         } 

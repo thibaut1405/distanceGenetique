@@ -14,11 +14,11 @@ namespace calculDistanceGenetique
             anciensTrajets = listeTrajets;
             List<Trajet> nouvelleListe = new List<Trajet>();
             int i = 0;
-            int y = 199;
-            while (i < Program.nombreDeGenerationAleatoire)
+            int y = Program.nombreDeGenerationAleatoire-1;
+            while (i < Program.nombreDeGenerationAleatoire/2)
             {
                 Trajet trajet1 = anciensTrajets[i++];
-                Trajet trajet2 = anciensTrajets[i++];
+                Trajet trajet2 = anciensTrajets[y--];
 
                 List<int> nouveauTrajet = new List<int>();
                 for (int x = 0; x < 8; x++) // Récupère les 8 premieres villes du premier trajet

@@ -13,7 +13,12 @@ namespace calculDistanceGenetique
 
         public override string ToString()
         {
-            return listeDesVilles.ToString();
+            string ret = "";
+            foreach( var x in listeDesVilles)
+            {
+                ret += x.ToString()+",";
+            }
+            return ret;
         }
 
         public bool Contains(int x)

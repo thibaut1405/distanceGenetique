@@ -17,7 +17,11 @@ namespace calculDistanceGenetique
 
         private static Trajet trajetGagnant = new Trajet();
 
-        public static int nombreDeGenerationAleatoire = 200;
+        public static int nombreDeGenerationAleatoire = 1000;
+
+        private static int nombreBoucle = 100;
+
+
 
         static void Main(string[] args)
         {
@@ -27,7 +31,7 @@ namespace calculDistanceGenetique
 
             listeTrajet = CalculateurDeDistance.Calcul(listeTrajet, listeDesVilles); //Calcule la distance de chaque trajet
 
-            for (int i = 0; i < 200; i++)
+            for (int i = 0; i < nombreBoucle; i++)
             {
                 listeTrajet = listeTrajet.OrderBy(o => o.distance).ToList(); //Trie les trajets en fonction de leur distance
 
