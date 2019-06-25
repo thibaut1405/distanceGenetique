@@ -61,6 +61,7 @@ namespace calculDistanceGenetique
                 Trajet trajet1 = anciensTrajets[i++];
                 Trajet trajet2 = anciensTrajets[y--];
 
+
                 for (int x = 0; x < 8; x++) // Récupère les 8 premieres villes du premier trajet
                 {
                     nouveauTrajet.Add(trajet1.listeDesVilles[x]);
@@ -73,7 +74,8 @@ namespace calculDistanceGenetique
                     }
                 }
                 Trajet trajet = new Trajet { listeDesVilles = nouveauTrajet };
-
+                if (trajet.listeDesVilles.Count != 15)
+                    Console.WriteLine("bz");
                 nouvelleListe.Add(trajet);
             }
             return nouvelleListe;
@@ -92,7 +94,6 @@ namespace calculDistanceGenetique
                     var x = trajet.listeDesVilles[a];
                     trajet.listeDesVilles[b] = trajet.listeDesVilles[a];
                     trajet.listeDesVilles[a] = x;
-                    //Console.WriteLine("Mutation");
                 }
             }
 

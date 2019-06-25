@@ -54,7 +54,6 @@ namespace calculDistanceGenetique
                 }
                 if (isNotInList) listeTrajet.Add(trajet);
                 else i--;
-                //listeTrajet.Add(trajet);
             }
             return listeTrajet;
         } 

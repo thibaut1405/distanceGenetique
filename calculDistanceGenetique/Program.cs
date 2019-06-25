@@ -17,9 +17,9 @@ namespace calculDistanceGenetique
 
         private static Trajet trajetGagnant = new Trajet();
 
-        public static int nombreDeGenerationAleatoire = 200;
+        public static int nombreDeGenerationAleatoire = 100;
 
-        private static int nombreBoucle = 100;
+        private static int nombreBoucle = 500;
 
 
         static void Main(string[] args)
@@ -35,6 +35,9 @@ namespace calculDistanceGenetique
                 listeTrajet = listeTrajet.OrderBy(o => o.distance).ToList(); //Trie les trajets en fonction de leur distance
 
                 trajetGagnant = listeTrajet[0];
+
+                if (trajetGagnant.listeDesVilles.Count != 15)
+                    Console.WriteLine("baise");
 
                 Console.WriteLine(listeTrajet[0].distance); // Ecrit dans la console le trajet trouvé le plus court trouvé
 
