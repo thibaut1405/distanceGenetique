@@ -35,7 +35,7 @@ namespace calculDistanceGenetique
 
                 listeTrajet.RemoveRange(199, listeTrajet.Count - 200);
 
-                nouvelleListeTrajet = MelangeurDeDonnee.Melanger(listeTrajet, 50); //Mélange les données entre elles pour en avoir de nouvelles
+                nouvelleListeTrajet = MelangeurDeDonnee.Melanger(listeTrajet); //Mélange les données entre elles pour en avoir de nouvelles
 
                 nouvelleListeTrajet.AddRange(GenererTrajets.GenererListeTrajet(100)); //Génère la liste des trajets aléatoirement et l'ajoute à la liste mélangée
 
