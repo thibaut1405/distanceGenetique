@@ -17,10 +17,9 @@ namespace calculDistanceGenetique
 
         private static Trajet trajetGagnant = new Trajet();
 
-        public static int nombreDeGenerationAleatoire = 1000;
+        public static int nombreDeGenerationAleatoire = 200;
 
         private static int nombreBoucle = 100;
-
 
 
         static void Main(string[] args)
@@ -39,11 +38,15 @@ namespace calculDistanceGenetique
 
                 Console.WriteLine(listeTrajet[0].distance); // Ecrit dans la console le trajet trouvé le plus court trouvé
 
-                listeTrajet.RemoveRange(nombreDeGenerationAleatoire-1, listeTrajet.Count - nombreDeGenerationAleatoire);
+                //listeTrajet.RemoveRange(nombreDeGenerationAleatoire-1, listeTrajet.Count - nombreDeGenerationAleatoire);
 
-                nouvelleListeTrajet = MelangeurDeDonnee.Melanger(listeTrajet); //Mélange les données entre elles pour en avoir de nouvelles
+                nouvelleListeTrajet = MelangeurDeDonnee.Decouper(listeTrajet);
 
-                nouvelleListeTrajet.AddRange(GenererTrajets.GenererListeTrajet(nombreDeGenerationAleatoire/2)); //Génère la liste des trajets aléatoirement et l'ajoute à la liste mélangée
+                nouvelleListeTrajet = MelangeurDeDonnee.Melanger(nouvelleListeTrajet); //Mélange les données entre elles pour en avoir de nouvelles
+
+                nouvelleListeTrajet = MelangeurDeDonnee.Muter(nouvelleListeTrajet); //Fait muter les données 
+
+                nouvelleListeTrajet.AddRange(GenererTrajets.GenererListeTrajet(nombreDeGenerationAleatoire*3/4)); //Génère la liste des trajets aléatoirement et l'ajoute à la liste mélangée
 
                 nouvelleListeTrajet = CalculateurDeDistance.Calcul(nouvelleListeTrajet, listeDesVilles);
 
